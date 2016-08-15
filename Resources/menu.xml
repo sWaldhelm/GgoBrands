@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../../engine/Shopware/Components/Plugin/schema/menu.xsd">
+	<entries>
+		<entry>
+			<name>GgoMarken</name>
+			<label lang="de">GgoMarken</label>
+			<label lang="en">GgoBrands</label>
+			<controller>GgoMarken</controller>
+			<action>index</action>
+			<class>sprite-star</class>
+			<parent identifiedBy="controller">Article</parent>
+		</entry>
+	</entries>
+</menu>
