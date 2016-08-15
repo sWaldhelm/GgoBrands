@@ -6,6 +6,11 @@ class Shopware_Controllers_Backend_GgoMarken extends Shopware_Controllers_Backen
 	protected $model = 'Shopware\CustomModels\Marken';
 	protected $alias = 'marken';
 	
+	public function create()
+	{
+		
+	}
+	
 /*	protected function getListQuery()
 	{
 		$builder = parent::getListQuery();
